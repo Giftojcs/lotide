@@ -7,6 +7,8 @@ const assertEqual = function(actual, expected) {
 };
 
 // Test cases
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+assertEqual("Hello", "Hello"); // Identical strings (Pass)
+assertEqual("Hello", "hello"); // Non-identical strings (Fail)
+assertEqual(5, 5); // Identical numbers (Pass)
+assertEqual(10, 20); // Non-identical numbers (Fail)
 
