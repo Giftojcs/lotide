@@ -1,9 +1,15 @@
-const head   = require('./head');
-const tail   = require('./tail');
+// index.js
+const head = require('./head');
+const tail = require('./tail');
 const middle = require('./middle');
+// Import other utility functions
+// ...
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle
+  head,
+  tail,
+  middle,
+  // Add other utility functions to the object
+  // ...
 };
+
