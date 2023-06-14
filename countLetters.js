@@ -1,19 +1,4 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
-// Test cases
-assertEqual("Hello", "Hello"); // Identical strings (Pass)
-assertEqual("Hello", "hello"); // Non-identical strings (Fail)
-assertEqual(5, 5); // Identical numbers (Pass)
-assertEqual(10, 20); // Non-identical numbers (Fail)
-
-
-//Creating a function called counted counterLetter using Lighthouselab.
+const assertEqual = require('./assertEqual');
 
 const countLetters = function(sentence) {
   const letterCounts = {};
@@ -30,6 +15,12 @@ const countLetters = function(sentence) {
 
   return letterCounts;
 };
+
+// Test cases
+assertEqual("Hello", "Hello"); // Identical strings (Pass)
+assertEqual("Hello", "hello"); // Non-identical strings (Fail)
+assertEqual(5, 5); // Identical numbers (Pass)
+assertEqual(10, 20); // Non-identical numbers (Fail)
 
 // Test case
 const result = countLetters('Lighthouselab');

@@ -1,11 +1,11 @@
-function findKey(obj, callback) {
+const findKey = function(obj, callback) {
   for (let key in obj) {
     if (callback(obj[key])) {
       return key;
     }
   }
   return undefined;
-}
+};
 
 // Test case 1
 const obj1 = {
@@ -26,7 +26,6 @@ const obj2 = {
   key2: { value: 0 },
   key3: { value: false }
 };
-
 const callback2 = x => x.value === false;
 console.log(findKey(obj2, callback2)); // Expected output: "key3"
 

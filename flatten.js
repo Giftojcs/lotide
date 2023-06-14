@@ -1,5 +1,16 @@
 const flatten = function(arr) {
-  return arr.flat();
+  const flattenedArray = [];
+
+  for (const item of arr) {
+    if (Array.isArray(item)) {
+      flattenedArray.push(...item);
+    } else {
+      flattenedArray.push(item);
+    }
+  }
+
+  return flattenedArray;
 };
 
 module.exports = flatten;
+
