@@ -25,34 +25,46 @@ This project was created and published by me as part of my learnings at Lighthou
 ## Documentation
 
 The following functions are currently implemented:
-	
-Lotide Directory:  Organize code inside a git repository.
-Implemented Assert Equal: Function that takes in 2 values and  returns true if they are equal and false otherwise.
-Improved Assert Equal function: Updated Assert Equal Function that uses template literals.
-Implemented Head: Function that takes in an array and returns the first element in the array.
-Implemented Tail: Function that takes in an array and returns everything except the first element of the array.
-Implemented eqArrays: Function that takes in 2 arrays and returns true if the arrays are equal and false otherwise.
-Implemented assertArraysEqual: Function that prints an appropriate message after comparing the two arrays.
-Implemented function that takes in a source array and an itemsToRemove arrays and returns only the items from the source array that are not in the itemsToRemove array.
-Implemented flatten function that takes in an array that contains elements including nested array of elements and returns a flattened version of the array.
-Implemented middle function that takes in an array and returns middle most element of the array.
-Implemented countOnly function that takes in a collection of items and returns a specific subset of those items.
-Implemented countLetters function that takes in a sentence and returns a count of each of the letters in the sentence.
-Implemented letterPositions function that takes in a string and returns all indices of letter positions in the string.
-Implemented findKeyByValue function that takes in an object and a value and returns the first key that corresponds to that value.
-Implemented eqObjects function that takes in 2 objects and return true if they are equal and false otherwise.
-Implemented assertObjectsEqual  function that takes in 2 objects and returns true if they are equal and false otherwise.
-Implemented Map function that takes in an array and a callback and returns a new array based on the results of the callback on each item in the array.
-Implemented takeUntil function that takes in an array and callback and returns a slice of the array based on the criteria specified in the callback.
-Implemented findKey function that takes in an object and callback and returns the first key that meets the criteria specified in callback.
-Lotide Refactor Example Modularize assertEqual Function.
-Refactor Tail Modularize tail function.
-Refactor eqArrays Modularise eqArrays function.
-Refactor assertArraysEqual  Modularise assertArraysEqual function.
-Refactor middle Modularise middle function.
-Incorporate Mocha and Chai  Set up correctly for testing with Mocha and Chai.
-Refactor with Mocha and Chai I  Write tests for tail and middle functions using Mocha and Chai.
-Exporting All Functions II  Create an index.js file that exports all the functions in Lotide as an object.
-Implemented Object Shorthand  Apply the new, shorter, property value shorthand syntax from ES6 to the main object being created and exported in the index.js file.
-Publishing Lotide To npm  Publish lotide library to npm.
 
+1.  Lotide Directory: Organize code inside a git repository.
+2.  Implemented Assert Equal: Function that takes in 2 values and returns true if they  
+    are  
+    equal and false otherwise.
+3.  Improved Assert Equal function: Updated Assert Equal Function that uses template 
+    literals.
+4.  Implemented Head: Function that takes in an array and returns the first element in the 
+    array.
+5.  Implemented Tail: Function that takes in an array and returns everything except the 
+    first element of the array.
+6.  Implemented eqArrays: Function that takes in 2 arrays and returns true if the arrays 
+    are equal and false otherwise.
+7.  Implemented assertArraysEqual: Function that prints an appropriate message after 
+    comparing the two arrays.
+8.  Implemented function: Takes in a source array and an itemsToRemove array and returns 
+    only the items from the source array that are not in the itemsToRemove array.
+9.  Implemented flatten function: Takes in an array that contains elements, including 
+    nested arrays of elements, and returns a flattened version of the array.
+10. Implemented middle function: Takes in an array and returns the middle-most element of 
+    the array.
+11. Implemented countOnly function: Takes in a collection of items and returns a specific 
+    subset of those items.
+12. Implemented countLetters function: Takes in a sentence and returns a count of each of 
+    the letters in the sentence.
+13. Implemented letterPositions function: Takes in a string and returns all indices of 
+    letter positions in the string.
+14. Implemented findKeyByValue function: Takes in an object and a value and returns the   
+    first key that corresponds to that value.
+15. Implemented eqObjects function: Takes in 2 objects and returns true if they are equal 
+    and false otherwise.
+16. Implemented assertObjectsEqual function: Takes in 2 objects and returns true if they 
+    are equal and false otherwise.
+17. Implemented Map function: Takes in an array and a callback and returns a new array 18.
+    based on the results of the callback on each item in the array.
+18. Implemented takeUntil function: Takes in an array and a callback and returns a slice 
+    of the array based on the criteria specified in the callback.
+19. Implemented findKey function: Takes in an object and a callback and returns the first 
+    key that meets the criteria specified in the callback.
+20. Lotide Refactor Example: Modularize assertEqual Function.
+21. Refactor Tail: Modularize tail function.
+22. Refactor eqArrays: Modularize eqArrays function.
+23. Refactor assertArraysEqual: Modularize assertArraysEqual function.
