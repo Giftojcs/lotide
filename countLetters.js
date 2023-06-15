@@ -1,28 +1,28 @@
-const assertEqual = require('./assertEqual');
+// AssertEqual function
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
+  } else {
+    console.log(`🔴 Assertion Failed: ${actual} !== ${expected}`);
+  }
+};
 
+// CountLetters function
 const countLetters = function(sentence) {
-  const letterCounts = {};
+  const letterCount = {};
 
   for (const letter of sentence) {
     if (letter !== ' ') {
-      if (letterCounts[letter]) {
-        letterCounts[letter] += 1;
+      if (letterCount[letter]) {
+        letterCount[letter] += 1;
       } else {
-        letterCounts[letter] = 1;
+        letterCount[letter] = 1;
       }
     }
   }
 
-  return letterCounts;
+  return letterCount;
 };
 
-// Test cases
-assertEqual("Hello", "Hello"); // Identical strings (Pass)
-assertEqual("Hello", "hello"); // Non-identical strings (Fail)
-assertEqual(5, 5); // Identical numbers (Pass)
-assertEqual(10, 20); // Non-identical numbers (Fail)
-
-// Test case
-const result = countLetters('Lighthouselab');
-console.log(result);
+module.exports = countLetters;
 
