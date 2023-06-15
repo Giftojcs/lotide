@@ -1,4 +1,5 @@
-//eqObjects.js
+const eqArrays = require('./eqArrays');
+
 const eqObjects = function(object1, object2) {
   const object1Keys = Object.keys(object1);
   const object2Keys = Object.keys(object2);

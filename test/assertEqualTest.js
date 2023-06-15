@@ -1,5 +1,6 @@
-const assertEqual = require('../assertEqual');
 const eqArrays = require('../eqArrays');
+const assert = require('assert');
+const { assertEqual } = require('../index');
 
 // Test cases
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // Identical arrays (Pass)
